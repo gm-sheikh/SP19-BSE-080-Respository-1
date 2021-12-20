@@ -1,0 +1,198 @@
+#menu >li{
+
+    display: inline;
+    
+    color: white;
+
+    padding: 0px;
+    margin-left: 30px;
+    
+   
+}
+
+#nav{
+    padding-left: 8em;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+#drop-menu{
+
+    position: relative;
+}
+
+.Dropdown{
+
+    
+
+    position: absolute;
+    display: none;
+
+    z-index: 1;
+    right: 0px;
+
+}
+
+#drop-menu:hover .Dropdown{
+    display:  block;
+    background-color: whitesmoke;
+}
+
+.Dropdown li:hover{
+    background-color: gainsboro;
+    text-decoration: none;
+}
+
+.Dropdown a{
+    text-decoration: none;
+    color: black;
+}
+
+.Quickfood{
+    display: inline;
+    font-size: 20px;
+    padding-right: 3em;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+#pizza{
+    width: 100%;
+
+}
+.burger{
+    width: 28.3%;
+    height: 230px;
+    padding: 30px;
+
+}
+
+
+
+.burger-text{
+    position: absolute;
+    top: 155px;
+    left: 110px;
+    color:white;
+    text-align: center;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+}
+
+.order-online{
+    width: 28.3%;
+    padding: 30px;
+    height: 230px;
+}
+
+.cake-text{
+    position: absolute;
+    top: 160px;
+    right: 110px;
+    color: white;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+   text-align: center;
+}
+
+.cake{
+    width: 28%;
+    padding: 30px;
+    height: 230px;
+    
+     
+}
+
+/* h2{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+
+} */
+
+.order-text{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    text-align: center;
+
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    );
+
+    
+    /* -webkit-text-stroke: 0.5px black; */
+
+    /* text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black; */
+}
+
+.bottom-images{
+    position: relative;
+    
+}
+#footer{
+
+    background-color:black;
+    color: whitesmoke;
+    position: relative;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 3em;
+    
+}
+
+.footer1{
+    width: 30.3%;
+    font-size: 0.7em;
+    position: absolute;
+}
+.food-logo{
+    font-family: cursive;
+    font-style:oblique;
+}
+
+
+.footer2{
+    width: 30.3%;
+    font-size: 0.7em;
+    padding-right: 30px;
+    position: absolute;
+    margin-left: 30.3%;
+    
+}
+
+.footer3{
+    width: 30.3%;
+    font-size: 0.7em;
+    position: absolute;
+    margin-left: 60.6%;
+}
+
+.button{
+    border-radius: 12px;
+    background-color:white;
+    width: 45%;
+
+    height: 30px;
+    text-align: left;
+}
+
